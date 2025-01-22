@@ -1,6 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #404040;
+    margin: 0;
 }
 
 /* =================
@@ -35,8 +36,14 @@ h1 {
 */
 
 .intro { 
+    display: flex;
     color: #fff;
     background-color: #9480e4;
+    flex-direction: column;   
+    min-height: 15.625em;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* ====================
