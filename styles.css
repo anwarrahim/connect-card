@@ -20,6 +20,7 @@ span{
 .beta-text { 
     font-weight: 900;
     order: 3;
+    padding-bottom: 1.5em;
 }
 
 .subheading {
@@ -104,12 +105,15 @@ input:focus {
 input {
     font-family: inherit;
     display: block;
-    width: 100%;
+   
     margin-bottom: 0.7em;
     padding:0.562em;
     border: 2px solid #d1d5db;
     border-radius: 5px;
 
+}
+input, button{
+width: 100%;
 }
 
 
@@ -138,6 +142,12 @@ h2{
    ================= */
    
 
+
+   .main-content p,
+   form{
+    max-width: 450px;
+   }
+
 /* =================
     Media queries 
    ================= */
@@ -155,22 +165,23 @@ h2{
     .intro{
             min-height: 100vh;
     }
-         .main-content {
-             justify-content: center;
-             padding-top: 0;
-         }
+    
+    .main-content {
+        justify-content: center;
+        padding-top: 0;
+    }
 
-         h1{
+    h1{
 
-            font-size: 5vw;
-         }
+    font-size: 5vw;
+    }
 
-         h2{
-            font-size: 2.625rem;
-         }
+    h2{
+    font-size: 2.625rem;
+    }
 
-        .beta-text{
-            font-size:1.25rem ;
-        }
+.beta-text{
+    font-size:1.25rem ;
+}
     
    }
