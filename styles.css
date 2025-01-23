@@ -17,7 +17,7 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 400;
-    text-shadow: 0 2px #816fca;
+    text-shadow: 0 2px #e98d3d;
 }
 
 h2 {
@@ -82,7 +82,7 @@ p {
     min-height: 250px;
     text-align: center;
     color: #fff;
-    background: #9480e4 url("images/intro-bg.png");
+    background: #e98d3d url("images/intro-bg.png");
     background-size: cover;
     padding-bottom: 1.5em;
 }
@@ -125,7 +125,7 @@ input {
 
 input:focus {
     outline: none;
-    border-color: #8a71ec;
+    border-color: #e98d3d;
     background-color: #e6e8ec;
 }
 
@@ -140,13 +140,14 @@ input:focus {
 
 .btn-primary {
     color: white;
-    background-color: #8a71ec;
+    background-color: #e98d3d;
     margin-top: 1em;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #b7a7f6;
+    background-color: #f17102;
+    box-shadow: 0.4em 0.4em #e6e8ec;
 }
 
 /* =================
